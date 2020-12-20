@@ -1,5 +1,8 @@
 'use strict';
-import { quiz } from './quiz.js';
+import { questions } from './quiz.js';
+
+//Randomizálás
+const quiz = questions.sort(() => Math.random() -
 
 const startButton = document.querySelector('.start-button');
 const contentContainer = document.querySelector('.content-container');

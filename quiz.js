@@ -1,4 +1,4 @@
-export const quiz = [
+export const questions = [
     // 1. JS - Változók
     {
         header1:    '1. JavaScript haladó - Változók, függvények és tömbök',
