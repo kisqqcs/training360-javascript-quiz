@@ -2,7 +2,7 @@
 import { questions } from './quiz.js';
 
 //Randomizálás
-const quiz = questions.sort(() => Math.random() -
+const quiz = questions.sort(() => Math.random() - .5);
 
 const startButton = document.querySelector('.start-button');
 const contentContainer = document.querySelector('.content-container');
