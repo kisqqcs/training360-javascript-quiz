@@ -385,7 +385,7 @@ export const questions = [
                     'Akármennyi'],
         results:    'A',
         result:     1,
-        boolres:    [true, true, true, false],
+        boolres:    [true, false, false, false],
         answer:     'Míg named export-ból akármennyi lehet, defaultból csak egy darab.<br>Akkor használjuk ha az adott file csak egy class-t, object-et stb. tartalmaz.'
     },
     {
@@ -418,7 +418,7 @@ export const questions = [
     {
         header1:    '3. JavaScript haladó - Modulok és kivételek',
         header2:    'A Regexp objektum 2 / 3',
-        question:   'Adott az alábbi reguláris kifejezés: ([A-Z])\w+/g<br>Hány találatunk lenne illeszkedés vizsgálatakor az alábbi mondat esetében?:<br>“RegExr was created By trining360.com.”<br>Válaszd ki az EGYETLEN megfelelő választ!',
+        question:   'Adott az alábbi reguláris kifejezés: ([A-Z]) \w+/g<br>Hány találatunk lenne illeszkedés vizsgálatakor az alábbi mondat esetében?:<br>“RegExr was created By trining360.com.”<br>Válaszd ki az EGYETLEN megfelelő választ!',
         options:    ['1',
                     '2',
                     '3',
