@@ -1,8 +1,5 @@
 'use strict';
-import { questions } from './quiz.js';
-
-//Randomizálás
-const quiz = questions.sort(() => Math.random() - .5);
+import { quiz } from './quiz.js';
 
 const startButton = document.querySelector('.start-button');
 const contentContainer = document.querySelector('.content-container');
@@ -66,7 +63,7 @@ const getNext = () => {
 // A helyes válasz megjelenítése
 const showAnswer = (answers) => {
     if (parseInt(answers) === parseInt(quiz[questionCounter].result)) {
-        answer.innerHTML = `<p class="ok">Helyes válasz.</p>${quiz[questionCounter].answer}`;
+        answer.innerHTML = `<p class="ok">Helyes válasz</p>${quiz[questionCounter].answer}`;
         answer.classList.add('filter-ok');
         points += 1;
     } else {
